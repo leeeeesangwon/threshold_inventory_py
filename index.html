@@ -1,0 +1,10 @@
+# threshold_inventory.py
+stock = int(input("在庫数: "))
+threshold = 5
+
+if stock == 0:
+    print("在庫切れ")
+elif stock < threshold:
+    print("残りわずか")
+else:
+    print("在庫十分")
